@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="test_dlg_title">Title</string>
+    <string name="test_dlg_msg">Alert Message\nTest aaaaaaa bbbbbbbbbbbb ccccccccccccccc</string>
+    <string name="test_confirm_yes">Click Yes Button</string>
+    <string name="test_confirm_no">Click No Button</string>
+    <string name="test_prompt_ok">Click Ok Button</string>
+    <string name="test_prompt_cancel">Click Cancel Button</string>
+</resources>

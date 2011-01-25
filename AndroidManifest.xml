@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="qc.android.demo"
+	android:versionCode="1"
+	android:versionName="1.0">
+	<application
+		android:icon="@drawable/icon"
+		android:label="@string/app_name">
+		<activity
+			android:name=".activity.SplashActivity"
+			android:label="@string/app_name"
+			android:theme="@android:style/Theme.Translucent.NoTitleBar">
+			<intent-filter>
+				<action
+					android:name="android.intent.action.CREATE_SHORTCUT" />
+				<action
+					android:name="android.intent.action.MAIN" />
+				<category
+					android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:name=".activity.MainActivity"
+			android:label="@string/app_name"
+			android:theme="@android:style/Theme.Translucent">
+			<intent-filter>
+				<action
+					android:name="android.intent.action.VIEW" />
+				<category
+					android:name="android.intent.action.DEFAULT" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:name=".activity.LoginActivity"
+			android:label="@string/app_name"
+			android:theme="@android:style/Theme.Translucent.NoTitleBar">
+			<intent-filter>
+				<action
+					android:name="android.intent.action.VIEW" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:name=".activity.SettingActivity"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action
+					android:name="android.intent.action.VIEW" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:name=".activity.AboutActivity"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action
+					android:name="android.intent.action.VIEW" />
+			</intent-filter>
+		</activity>
+
+		<receiver
+			android:name="qc.android.demo.widget.Widget1Provider"
+			android:label="@string/widget_name">
+			<meta-data
+				android:name="android.appwidget.provider"
+				android:resource="@xml/widget1" />
+			<intent-filter>
+				<action
+					android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+			</intent-filter>
+		</receiver>
+		
+		<!-- <receiver android:name="org.inno.android.widget.TimeChangedReceiver" -->
+		<!-- android:enabled="false"> -->
+		<!-- <intent-filter> -->
+		<!-- <action android:name="android.intent.action.TIMEZONE_CHANGED" /> -->
+		<!-- <action android:name="android.intent.action.TIME_TICK" /> -->
+		<!-- <action android:name="android.intent.action.TIME_SET" /> -->
+		<!-- <action android:name="android.intent.action.TIME" /> -->
+		<!-- </intent-filter> -->
+		<!-- </receiver> -->
+
+		<service
+			android:name="qc.android.demo.widget.Widget1Service"
+			android:enabled="false">
+			<intent-filter>
+				<action
+					android:name="org.qc.test.UPDATE_ALL" />
+			</intent-filter>
+		</service>
+	</application>
+
+	<!-- <uses-sdk android:minSdkVersion="3" /> -->
+	<uses-permission
+		android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+	<uses-permission
+		android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+</manifest> 

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">QC演示</string>
+	<string name="login_title">QC演示</string>
+	<string name="login_userName">帐 号：</string>
+	<string name="login_userPassword">密码：</string>
+	<string name="login_userName_hint">输入帐号</string>
+	<string name="login_userPassword_hint">输入密码</string>
+	<string name="login_rememberPassword">记住密码</string>
+	<string name="login_autoLogin">自动登录</string>
+	<string name="login_waitingMsg">正在登录...</string>
+	<string name="login_welcomeMsg">欢迎登录到QC演示平台</string>
+	<string name="error_loginFailed">登录失败！</string>
+	<string name="error_login_emptyPassword">密码不能为空！</string>
+	<string name="error_login_emptyAccount">帐号不能为空！</string>
+	<string name="btn_submit">登录</string>
+
+	<!-- menu -->
+	<string name="menu_exit">退出</string>
+	<string name="menu_logout">切换帐号</string>
+	<string name="menu_logout_confirmTile">注销确认</string>
+	<string name="menu_logout_confirmMsg">确认要注销当前账户吗?</string>
+	<string name="menu_about">关于</string>
+	<string name="menu_createShortcut">创建桌面快捷方式</string>
+	<string name="menu_setting">设置</string>
+	
+	<!-- widget -->
+	<string name="widget_name">QC桌面插件</string>
+
+	<style name="border">
+		<item name="android:inputType">number</item>
+	</style>
+</resources>

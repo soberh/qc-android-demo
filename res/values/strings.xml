@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="version">0.1-SNAPSHOT</string>
+    <string name="app_name">QC Demo</string>
+	<string name="login_title">QC Demo</string>
+	<string name="login_userName">Account：</string>
+	<string name="login_userName_hint">input account</string>
+	<string name="login_userPassword">Password：</string>
+	<string name="login_userPassword_hint">input password</string>
+	<string name="login_key_isFromLogout">login.key.isFromLogout</string>
+	<string name="login_rememberPassword">remember password</string>
+	<string name="login_autoLogin">auto login</string>
+	<string name="login_waitingMsg">Loging...</string>
+	<string name="login_welcomeMsg">Welcome to QC Demo platform</string>
+	<string name="error_loginFailed">login failed!</string>
+	<string name="error_login_emptyPassword">password can not be empty</string>
+	<string name="error_login_emptyAccount">account can not be empty</string>
+	<string name="btn_submit">Login</string>
+	
+	<!-- menu -->
+	<string name="menu_exit">Exit</string>
+	<string name="menu_logout">Logout</string>
+	<string name="menu_logout_confirmTile">Logout Confirm</string>
+	<string name="menu_logout_confirmMsg">Are you sure to logout?</string>
+	<string name="menu_about">About</string>
+	<string name="menu_createShortcut">Create Shortcut</string>
+	<string name="menu_setting">Setting</string>
+	
+	<!-- widget -->
+	<string name="widget_name">QC Widget</string>
+	
+	<!-- setting -->
+	<string name="setting_fullScreen">setting.fullScreen</string>
+	<string name="setting_autoLogin">setting.login.autoLogin</string>
+	<string name="setting_rememberPassword">setting.login.rememberPassword</string>
+	<string name="setting_historyPassword">setting.login.historyPassword</string>
+	<string name="setting_historyAccount">setting.login.historyAccount</string>
+</resources>

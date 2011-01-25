@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="test_dlg_title">标题</string>
+    <string name="test_dlg_msg">信息内容\n测试测试 测试测试 测试测试 测试测试 测试测试 测试测试 测试测试 </string>
+    <string name="test_confirm_yes">点击了 是 按钮</string>
+    <string name="test_confirm_no">点击了 否 按钮</string>
+    <string name="test_prompt_ok">点击了 确认 按钮</string>
+    <string name="test_prompt_cancel">点击了 取消 按钮</string>
+</resources>
